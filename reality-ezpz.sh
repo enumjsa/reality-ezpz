@@ -994,7 +994,7 @@ function generate_engine_config {
   local reality_object=""
   local tls_object=""
   local warp_object=""
-  local reality_port=443
+  local reality_port=8443
   local temp_file
   if [[ ${config[transport]} == 'tuic' ]]; then
     type='tuic'
